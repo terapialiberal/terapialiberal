@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Índice de Videos – Terapia Liberal</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+    }
+    .gold-gradient {
+      background: linear-gradient(45deg, #ffd700, #ffed4e, #ffd700);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card-dark {
+      background: rgba(20, 20, 20, 0.9);
+      border: 1px solid rgba(255, 215, 0, 0.2);
+      backdrop-filter: blur(10px);
+    }
+    .hover-gold:hover {
+      border-color: #ffd700;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    }
+  </style>
+</head>
+<body class="text-white min-h-screen px-4 py-12">
+
+  <div class="max-w-4xl mx-auto text-center">
+    <!-- Logo -->
+    <img src="https://yt3.ggpht.com/ZzVyDrXt4x8YWoKbISHZzC9CCtkEPCN4GRET1Xxf_wssNyw7mfN-xTbBmpwEJHO0DRQrg0Dgug=s88-c-k-c0x00ffffff-no-rj" 
+         alt="Logo Terapia Liberal" 
+         class="w-20 h-20 mx-auto mb-4 rounded-full border-2 border-yellow-500">
+
+    <!-- Título -->
+    <h1 class="text-4xl font-bold gold-gradient mb-4">📺 Videos de Terapia Liberal</h1>
+
+    <!-- Botón a YouTube -->
+    <a href="https://www.youtube.com/@terapialiberal" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold text-white mb-10 transition-all duration-300">
+      Ir al Canal de YouTube
+    </a>
+
+    <!-- Video Destacado -->
+    <div class="text-left card-dark rounded-lg p-6 hover-gold transition-all duration-300 mb-8">
+      <a href="https://terapialiberal.github.io/pages/140625-SEGUNDAGLOBALIZACION.html">
+        <div class="flex flex-col md:flex-row items-start gap-6">
+          <img src="https://img.youtube.com/vi/zYV-hGwE-RQ/hqdefault.jpg" alt="Miniatura del video" class="w-full md:w-64 rounded-lg">
+          <div>
+            <h2 class="text-2xl font-semibold gold-gradient mb-2">25/06/2014 – Segunda Globalización</h2>
+            <p class="text-gray-300 mb-2">
+              Rediseño del orden financiero global, geopolítica, CBDC y nueva arquitectura del poder monetario.
+            </p>
+            <span class="text-blue-400 text-sm hover:underline">Ver análisis completo →</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Aquí podrás seguir agregando más videos -->
+  </div>
+
+</body>
+</html>
